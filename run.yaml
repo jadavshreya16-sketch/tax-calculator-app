@@ -8,3 +8,6 @@ spec:
   workspaces:
     - name: shared-workspace
       emptyDir: {}
+  params:
+    - name: app-name
+      value: tax-calculator
